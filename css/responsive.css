@@ -1,0 +1,93 @@
+
+/* -------------------------------------------------------
+                     phone & tablet 
+-------------------------------------------------------- */
+
+@media (max-width: 767px){
+
+	.navbar-default .navbar-toggle{
+		background: none;
+		margin-top: 30px;
+		border: none;
+	}
+
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus
+	{
+		background: none;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar{
+		background: #c49b66;
+	}
+		
+	.navbar-default .navbar-collapse{
+		text-align: center;
+		border: none;
+		background: #111;
+		margin-top: 10px;
+	}
+
+	.tona-header{
+		background-position: 50% 0% !important;
+	}
+
+	.caption{
+		text-align: center;
+		margin-left: 0;
+	}
+
+	.caption h1{
+		font-size: 35px;
+	}
+
+	.caption h2,
+	.caption span
+	{
+		font-size: 30px;
+	}
+
+	.hero .hero-item h4{
+		font-size: 20px;
+	}
+
+	.hero-img,
+	.skill-items,
+	.num-items,
+	.rel-img
+	{
+		margin-bottom: 80px;
+	}
+
+	.clients .client-say{
+		padding: 100px 20px;
+	}
+
+	.portfolio .filtering span{
+		padding: 0 15px 0 10px;
+	}
+
+	.blog .to-blog p{
+		letter-spacing: 2px;
+	}
+
+	.side-bar{
+		padding: 20px;
+		margin: auto 15px;
+	}
+
+	.comment .com-post.tona-com{
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 991px){
+
+	.portfolio .item-img{
+		width: 100%;
+	}
+
+	.blog .post{
+		margin-bottom: 30px;
+	}
+}

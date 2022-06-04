@@ -1,0 +1,374 @@
+/* -------------------------------------------------------
+                     General 
+-------------------------------------------------------- */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style: none !important;
+    outline: none !important;
+}
+
+body {
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* ---------------- Typography -----------------*/
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+p {
+    line-height: 1.8;
+    margin: 0;
+    font-size: 16px;
+}
+
+span {
+    display: inline-block;
+}
+
+/* ---------------- vertical middle align -----------------*/
+
+.v-middle {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+}
+
+/* ---------------- Utility Classes -----------------*/
+
+.clear-fix {
+    clear: both;
+}
+
+/* margin top */
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+/*  margin bottom */
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+
+/* margin right and left */
+
+.mrl-10 {
+    margin: 0 10px;
+}
+
+.mrl-20 {
+    margin: 0 20px;
+}
+
+.mrl-30 {
+    margin: 0 30px;
+}
+
+.mrl-40 {
+    margin: 0 40px;
+}
+
+.mrl-50 {
+    margin: 0 50px;
+}
+
+/* custom padding classes */
+
+.no-padding {
+    padding: 0 !important;
+}
+
+/* padding-bottom */
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+/* padding top */
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pt-80 {
+    padding-top: 80px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+/* padding top bottom */
+
+.ptb-10 {
+    padding: 10px 0;
+}
+
+.ptb-20 {
+    padding: 20px 0;
+}
+
+.ptb-30 {
+    padding: 30px 0;
+}
+
+.ptb-50 {
+    padding: 50px 0;
+}
+
+/* padding right and left */
+
+.prl-10 {
+    padding: 0 10px;
+}
+
+.prl-20 {
+    padding: 0 20px;
+}
+
+.prl-30 {
+    padding: 0 30px;
+}
+
+.prl-40 {
+    padding: 0 40px;
+}
+
+.prl-50 {
+    padding: 0 50px;
+}
+
+/* Social Media */
+
+.facebook {
+    background-color: #3b5998
+}
+
+.twitter {
+    background-color: #0084b4
+}
+
+.youtube {
+    background-color: #bb0000
+}
+
+.linkedin {
+    background-color: #007bb6
+}
+
+.google {
+    background-color: #dd4b39
+}
+
+.instagram {
+    background-color: #e95950
+}
+
+.whatsapp {
+    background-color: #4dc247
+}
+
+.github {
+    background-color: #000000
+}
+
+/* -------------------------------------------------------
+                     Preloader
+-------------------------------------------------------- */
+
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    z-index: 999999;
+}
+
+.spinner {
+    margin: 50vh auto;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.spinner>div {
+    background-color: #fff;
+    height: 100%;
+    width: 4px;
+    display: inline-block;
+
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+
+    0%,
+    40%,
+    100% {
+        -webkit-transform: scaleY(0.4)
+    }
+
+    20% {
+        -webkit-transform: scaleY(1.0)
+    }
+}
+
+@keyframes sk-stretchdelay {
+
+    0%,
+    40%,
+    100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }
+
+    20% {
+        transform: scaleY(1.0);
+        -webkit-transform: scaleY(1.0);
+    }
+}
